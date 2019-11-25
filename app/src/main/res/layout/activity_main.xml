@@ -4,14 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6ba8a9"
+
+
     tools:context=".MainActivity">
+
 
     <Button
         android:id="@+id/BtnToSecond"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
-        android:text="Button"
+        android:text="Plan and Buy"
+        android:padding="7dp"
+
+        android:textColor="#ffff"
+        android:background="#1d4d4f"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,8 +31,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="37dp"
         android:ems="10"
+        android:padding="10dp"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:hint="Travelling To"
+        android:textColorHint="#ffff"
+        android:background="#6ba8a9"
+
         app:layout_constraintStart_toStartOf="@+id/editText"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
@@ -33,9 +45,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="31dp"
+        android:background="#6ba8a9"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:padding="10dp"
+        android:hint="Travelling From"
+        android:textColorHint="#ffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -45,7 +60,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="54dp"
-        android:text="TextView"
+        android:text="Every Journey Starts here"
+        android:background="#1d4d4f"
+        android:textColor="#ffff"
+        android:padding="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
