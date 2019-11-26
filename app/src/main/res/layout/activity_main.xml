@@ -14,14 +14,14 @@
         android:id="@+id/BtnToSecond"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:text="Plan and Buy"
+        android:layout_marginTop="48dp"
+        android:background="#1d4d4f"
         android:padding="7dp"
 
+        android:text="Plan and Buy"
         android:textColor="#ffff"
-        android:background="#1d4d4f"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.434"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
@@ -29,13 +29,13 @@
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="37dp"
-        android:ems="10"
-        android:padding="10dp"
-        android:inputType="textPersonName"
-        android:hint="Travelling To"
-        android:textColorHint="#ffff"
+        android:layout_marginTop="24dp"
         android:background="#6ba8a9"
+        android:ems="10"
+        android:hint="Travelling To"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColorHint="#ffff"
 
         app:layout_constraintStart_toStartOf="@+id/editText"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
@@ -44,14 +44,15 @@
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="196dp"
         android:background="#6ba8a9"
         android:ems="10"
+        android:hint="Travelling From"
         android:inputType="textPersonName"
         android:padding="10dp"
-        android:hint="Travelling From"
         android:textColorHint="#ffff"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.595"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -59,12 +60,21 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="54dp"
-        android:text="Enter Your Journey Below"
+        android:layout_marginTop="44dp"
         android:background="#1d4d4f"
-        android:textColor="#ffff"
         android:padding="6dp"
+        android:text="Enter Your Journey Below"
+        android:textColor="#ffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/FirstImage"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:srcCompat="@tools:sample/avatars" />
 </androidx.constraintlayout.widget.ConstraintLayout>
